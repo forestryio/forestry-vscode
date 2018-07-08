@@ -10,5 +10,17 @@
       "$0"
     ],
     "description": "Create a new Forestry.io Front Matter Template"
+  },
+  "Text Field": {
+    "prefix": "f.text",
+    "body": [
+      "- type: text",
+      "  name: $1",
+      "  label: $2",
+      "  config: ",
+      "    required: ${3|false,true|}",
+      "    default: ${4}"
+    ],
+    "description": "Insert a new Forestry.io Text Field"
   }
 }
