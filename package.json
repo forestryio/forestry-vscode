@@ -27,7 +27,21 @@
         "language": "yaml",
         "path": "./snippets/yaml.json"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Forestry configuration",
+      "properties": {
+        "forestry.pathToSettings": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": ".forestry",
+          "description": "Specifies the folder path containing the forestry settings."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

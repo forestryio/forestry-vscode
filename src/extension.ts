@@ -3,42 +3,20 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
 import { Forestry } from "./forestry";
+import { SectionWidget } from "./section-widget";
 
-let site: Forestry.Site;
-let sectionStatusBarItem = vscode.window.createStatusBarItem(
-  vscode.StatusBarAlignment.Left
-);
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-  // Use the console to output diagnostic information (console.log) and errors (console.error)
-  // This line of code will only be executed once when your extension is activated
   console.log('Congratulations, your extension "forestry" is now active!');
+  const rootPath = vscode.workspace.rootPath || "";
+  const forestryExtConfig = vscode.workspace.getConfiguration("forestry");
 
-  // TODO: Add to .vscode workspace settings?
-  const pathToForestryDir = "src/.forestry";
+  const site = new Forestry.Site(rootPath, forestryExtConfig["pathToSettings"]);
 
-  site = new Forestry.Site(vscode.workspace.rootPath || "", pathToForestryDir);
+  const sectionWidget = new SectionWidget(site);
 
-  updateSectionStatus(vscode.window.activeTextEditor);
-
-  let disposableSectionStatusUpdate = vscode.window.onDidChangeActiveTextEditor(
-    updateSectionStatus
-  );
-
-  context.subscriptions.push(disposableSectionStatusUpdate);
-}
-
-function updateSectionStatus(editor?: vscode.TextEditor) {
-  if (editor) {
-    const section = site.sectionForUri(editor.document.uri);
-    if (section) {
-      sectionStatusBarItem.text = `Forestry.io Section: ${section.label}`;
-      sectionStatusBarItem.show();
-    } else {
-      sectionStatusBarItem.hide();
-    }
-  }
+  context.subscriptions.push(sectionWidget);
 }
 
 // this method is called when your extension is deactivated
