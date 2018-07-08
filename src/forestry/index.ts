@@ -5,7 +5,7 @@ import * as yaml from "yamljs";
 import { EventEmitter } from "events";
 
 export namespace Forestry {
-  interface Section {
+  export interface Section {
     path: string;
     label: string;
     create: "all" | "documents" | "none";
