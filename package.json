@@ -12,7 +12,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.sayHello"
+    "workspaceContains:**/.forestry/settings.yml"
   ],
   "main": "./out/extension",
   "contributes": {
@@ -41,5 +41,9 @@
     "vscode": "^1.1.6",
     "@types/node": "^7.0.43",
     "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "@types/yamljs": "^0.2.30",
+    "yamljs": "^0.3.0"
   }
 }
