@@ -1,6 +1,6 @@
 # forestry-vscode
 
-This is a VSCode Extension for working with repositories managed by the [Forestry.io](https://forestry.io) Content Mangement System.
+This is a VSCode Extension for working with repositories managed by the Forestry.io Content Mangement System.
 
 ## Features
 
@@ -34,3 +34,7 @@ _None_
 ## Release Notes
 
 _Never released_
+
+## Slack Channel
+
+Join the [#vscode](https://forestry.io/blog/join-our-slack-community/) channel in the Forestry.io community Slack group!
