@@ -4,6 +4,7 @@ This is a VSCode Extension for working with repositories managed by the Forestry
 
 ## Features
 
+Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vscode/issues/new?template=feature_request.md)
 ### Snippets!
 
 #### YAML
@@ -17,11 +18,7 @@ This is a VSCode Extension for working with repositories managed by the Forestry
 
 - **Currenct Section:** A status bar item will display the Forestry Section where that a Markdown file lives.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
+## Settings
 
 This extension contributes the following settings:
 
@@ -30,6 +27,8 @@ This extension contributes the following settings:
 ## Known Issues
 
 _None_
+
+Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-vscode/issues/new?template=bug_report.md)
 
 ## Release Notes
 
