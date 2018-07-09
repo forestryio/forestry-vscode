@@ -11,9 +11,9 @@ This is a VSCode Extension for working with repositories managed by the Forestry
 - `f.fmt`: Generate a Front Matter Template
 - `f.text`: Generate a Text Field config
 
-### Status Bar
+\!\[Snippet Feature\]\(images/feature-snippet.gif\)
 
-<!-- \!\[feature X\]\(images/feature-x.png\) -->
+### Status Bar
 
 - **Currenct Section:** A status bar item will display the Forestry Section where that a Markdown file lives.
 
