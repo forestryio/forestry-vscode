@@ -4,7 +4,7 @@ This is a VSCode Extension for working with repositories managed by the Forestry
 
 ## Features
 
-Have an idea for a feature? [Open a Feature Request](https://github.com/forestryio/forestry-vscode/issues/new?template=feature_request.md)
+Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vscode/issues/new?template=feature_request.md)
 ### Snippets!
 
 #### YAML
