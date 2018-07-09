@@ -5,6 +5,7 @@ This is a VSCode Extension for working with repositories managed by the Forestry
 ## Features
 
 Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vscode/issues/new?template=feature_request.md)
+
 ### Snippets!
 
 #### YAML
@@ -12,7 +13,7 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 - `f.fmt`: Generate a Front Matter Template
 - `f.text`: Generate a Text Field config
 
-\!\[Snippet Feature\]\(images/feature-snippet.gif\)
+![Snippet Feature](images/feature-snippet.gif)
 
 ### Status Bar
 
@@ -32,7 +33,9 @@ Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-v
 
 ## Release Notes
 
-_Never released_
+- Add yaml snippets
+  - `f.fmt`: Front matter template snippet
+  - `f.text`: Text field config
 
 ## Slack Channel
 
