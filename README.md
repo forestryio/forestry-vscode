@@ -11,13 +11,11 @@ This is a VSCode Extension for working with repositories managed by the [Forestr
 - `f.fmt`: Generate a Front Matter Template
 - `f.text`: Generate a Text Field config
 
-### Section Widget
+### Status Bar
 
-\!\[feature X\]\(images/feature-x.png\)
+<!-- \!\[feature X\]\(images/feature-x.png\) -->
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-A status bar item will display the Forestry Section where that a Markdown file lives.
+- **Currenct Section:** A status bar item will display the Forestry Section where that a Markdown file lives.
 
 ## Requirements
 
