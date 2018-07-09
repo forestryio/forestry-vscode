@@ -28,7 +28,7 @@ This extension contributes the following settings:
 
 _None_
 
-Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-vscode/issues/new?template=bug_report.md
+Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-vscode/issues/new?template=bug_report.md)
 
 ## Release Notes
 
