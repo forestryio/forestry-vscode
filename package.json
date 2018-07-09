@@ -3,7 +3,7 @@
   "displayName": "forestry",
   "description": "",
   "version": "0.1.0",
-  "publisher": "forestry",
+  "publisher": "forestryio",
   "engines": {
     "vscode": "^1.25.0"
   },
