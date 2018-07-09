@@ -11,6 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - YAML Snippets
   - `f.text`: Add `description` field
   - `f.toggle`: Add a Toggle to a Front Matter Template
+  - `f.num`: Add a Number to a Front Matter Template
 
 ### Fixed
 

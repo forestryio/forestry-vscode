@@ -10,9 +10,10 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 
 #### YAML
 
-- `f.fmt`: Generate a Front Matter Template
-- `f.text`: Generate a Text Field config
-- `f.toggle`: Generate a Toggle Field config
+- `f.fmt`: Generate Front Matter Template
+- `f.text`: Insert a Text field
+- `f.toggle`: Insert a Toggle field
+- `f.num`: Insert a Number field
 
 ![Snippet Feature](images/feature-snippet.gif)
 

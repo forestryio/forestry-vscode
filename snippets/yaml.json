@@ -34,5 +34,19 @@
       "  default: ${4|false,true|}"
     ],
     "description": "Add a Toggle to a Front Matter Template"
+  },
+  "Number Field": {
+    "prefix": "f.num",
+    "body": [
+      "- type: number",
+      "  name: $1",
+      "  label: $2",
+      "  description: ${3}",
+      "  config:",
+      "    min: ${4} # Optional",
+      "    max: ${5} # Optional",
+      "  default: ${4|false,true|} # Optional"
+    ],
+    "description": "Add a Number to a Front Matter Template"
   }
 }
