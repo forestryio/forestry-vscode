@@ -12,6 +12,7 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 
 - `f.fmt`: Generate a Front Matter Template
 - `f.text`: Generate a Text Field config
+- `f.toggle`: Generate a Toggle Field config
 
 ![Snippet Feature](images/feature-snippet.gif)
 
@@ -30,12 +31,6 @@ This extension contributes the following settings:
 _None_
 
 Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-vscode/issues/new?template=bug_report.md)
-
-## Release Notes
-
-- Add yaml snippets
-  - `f.fmt`: Front matter template snippet
-  - `f.text`: Text field config
 
 ## Slack Channel
 

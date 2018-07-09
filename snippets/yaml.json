@@ -17,10 +17,22 @@
       "- type: text",
       "  name: $1",
       "  label: $2",
+      "  description: ${3}",
       "  config: ",
-      "    required: ${3|false,true|}",
-      "    default: ${4}"
+      "    required: ${4|false,true|}",
+      "  default: ${5}"
     ],
-    "description": "Insert a new Forestry.io Text Field"
+    "description": "Add a Text Field to a Front Matter Template"
+  },
+  "Toggle Field": {
+    "prefix": "f.toggle",
+    "body": [
+      "- type: boolean",
+      "  name: $1",
+      "  label: $2",
+      "  description: ${3}",
+      "  default: ${4|false,true|}"
+    ],
+    "description": "Add a Toggle to a Front Matter Template"
   }
 }
