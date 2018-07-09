@@ -13,6 +13,7 @@ export class SectionWidget implements vscode.Disposable {
       this.updateSectionStatus
     );
   }
+
   updateSectionStatus = (editor?: vscode.TextEditor) => {
     if (editor) {
       const section = this.site.sectionForUri(editor.document.uri);
