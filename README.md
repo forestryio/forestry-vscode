@@ -2,11 +2,11 @@
 
 This is a VSCode Extension for working with repositories managed by the Forestry.io Content Mangement System.
 
-## Features
+## Features 🚀
 
 Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vscode/issues/new?template=feature_request.md)
 
-### Snippets!
+### Snippets
 
 #### YAML
 
@@ -21,18 +21,22 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 
 - **Currenct Section:** A status bar item will display the Forestry Section where that a Markdown file lives.
 
-## Settings
+## Settings ️️⚙️
 
 This extension contributes the following settings:
 
 - `forestry.pathToSettings`: the path to the settings file. Default: `.forestry`
 
-## Known Issues
+## Known Issues 🐛
 
 _None_
 
 Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-vscode/issues/new?template=bug_report.md)
 
-## Slack Channel
+## Pairs Well With 🍷
+
+- [Hugo Language and Syntax Support](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode)
+
+## Slack Channel 💬
 
 Join the [#vscode](https://forestry.io/blog/join-our-slack-community/) channel in the Forestry.io community Slack group!
