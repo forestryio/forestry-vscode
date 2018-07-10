@@ -12,7 +12,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Add Logo for Marketplace
 - YAML Snippets
   - `f.textarea`: Add a plain Textarea to a Front Matter Template
-  - `f.textarea`: Add a wysiwyg Textarea to a Front Matter Template
+  - `f.wysiwyg`: Add a wysiwyg Textarea to a Front Matter Template
+  - `f.color`: Add a Color field to a Front Matter Template
 
 ## [0.2.1] – 2018-07-09
 

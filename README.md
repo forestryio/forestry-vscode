@@ -12,12 +12,13 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 
 #### YAML
 
-- `f.fmt`: Generate Front Matter Template
-- `f.text`: Insert a Text field
-- `f.textarea`: Insert a plain Textarea field
-- `f.wysiwyg`: Insert a wysiwyg Textarea field
-- `f.toggle`: Insert a Toggle field
-- `f.num`: Insert a Number field
+- `f.fmt`: Matter Template
+- `f.text`: Text field
+- `f.textarea`: Plain Textarea field
+- `f.wysiwyg`: WYSIWYG Textarea field
+- `f.toggle`: Toggle field
+- `f.num`: Number field
+- `f.color`: Color field
 
 ![Snippet Feature](images/feature-snippet.gif)
 

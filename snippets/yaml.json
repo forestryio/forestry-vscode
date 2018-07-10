@@ -76,5 +76,18 @@
       "  default: ${4|false,true|} # Optional"
     ],
     "description": "Add a Number to a Front Matter Template"
+  },
+  "Color Field": {
+    "prefix": "f.color",
+    "body": [
+      "- type: color",
+      "  name: $1",
+      "  label: $2",
+      "  description: ${3} # Optional",
+      "  config:",
+      "    color_format: ${4|Hex,RGB|}",
+      "  default: ${5} # Optional"
+    ],
+    "description": "Add a Number to a Front Matter Template"
   }
 }
