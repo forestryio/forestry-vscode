@@ -2,8 +2,8 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
-import { Forestry } from "./forestry";
 import { SectionWidget } from "./section-widget";
+import { Site } from "./forestry/site";
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -12,10 +12,11 @@ export function activate(context: vscode.ExtensionContext) {
   const rootPath = vscode.workspace.rootPath || "";
   const forestryExtConfig = vscode.workspace.getConfiguration("forestry");
 
-  const site = new Forestry.Site(rootPath, forestryExtConfig["pathToSettings"]);
+  const site = new Site(rootPath, forestryExtConfig["pathToSettings"]);
 
   const sectionWidget = new SectionWidget(site);
 
+  context.subscriptions.push(site);
   context.subscriptions.push(sectionWidget);
 }
 

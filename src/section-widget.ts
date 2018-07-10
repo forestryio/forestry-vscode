@@ -1,5 +1,5 @@
-import { Forestry } from "./forestry";
 import * as vscode from "vscode";
+import { Site } from "./forestry/site";
 
 export class SectionWidget implements vscode.Disposable {
   private sectionStatusBarItem = vscode.window.createStatusBarItem(
@@ -7,7 +7,7 @@ export class SectionWidget implements vscode.Disposable {
   );
   private disposableSectionStatusUpdate: vscode.Disposable;
 
-  constructor(private site: Forestry.Site) {
+  constructor(private site: Site) {
     this.updateSectionStatus(vscode.window.activeTextEditor);
     this.disposableSectionStatusUpdate = vscode.window.onDidChangeActiveTextEditor(
       this.updateSectionStatus
