@@ -24,6 +24,34 @@
     ],
     "description": "Add a Text Field to a Front Matter Template"
   },
+  "Textarea": {
+    "prefix": "f.textarea",
+    "body": [
+      "- type: textarea",
+      "  name: $1",
+      "  label: $2",
+      "  description: ${3}",
+      "  config: ",
+      "    required: ${4|false,true|}"
+    ],
+    "description": "Add a Textarea to a Front Matter Template"
+  },
+  "WYSIWYG": {
+    "prefix": "f.wysiwyg",
+    "body": [
+      "- type: textarea",
+      "  name: $1",
+      "  label: $2",
+      "  description: ${3}",
+      "  config: ",
+      "    required: ${4|false,true|}",
+      "    wysiwyg: true",
+      "    schema:",
+      "      format: ${5|markdown,html-blocks,html|}"
+    ],
+    "description": "Add a Textarea to a Front Matter Template"
+  },
+
   "Toggle Field": {
     "prefix": "f.toggle",
     "body": [

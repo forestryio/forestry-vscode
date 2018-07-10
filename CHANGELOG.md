@@ -6,8 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.2.2] – 2018-07-09
 
+### Added
+
 - Docs
   - Add Logo for Marketplace
+- YAML Snippets
+  - `f.textarea`: Add a plain Textarea to a Front Matter Template
+  - `f.textarea`: Add a wysiwyg Textarea to a Front Matter Template
 
 ## [0.2.1] – 2018-07-09
 

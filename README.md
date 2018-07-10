@@ -14,6 +14,8 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 
 - `f.fmt`: Generate Front Matter Template
 - `f.text`: Insert a Text field
+- `f.textarea`: Insert a plain Textarea field
+- `f.wysiwyg`: Insert a wysiwyg Textarea field
 - `f.toggle`: Insert a Toggle field
 - `f.num`: Insert a Number field
 
