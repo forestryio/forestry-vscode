@@ -33,6 +33,18 @@ _None_
 
 Did you find a problem? [Open an Issue](https://github.com/forestryio/forestry-vscode/issues/new?template=bug_report.md)
 
+## Roadmap 👷‍
+
+A tentative list of future features:
+
+- Full snippet support for creating [Front Matter Templates](https://forestry.io/docs/settings/front-matter-templates/) and adding [Fields](https://forestry.io/docs/settings/fields/)
+- Front Matter Templates
+  - Go to the FMT of the current file.
+  - Validate a file's front matter using it's FMT
+- Team Support
+  - See who's editing which files in Forestry
+  - See which files have uncommitted changes in Forestry.
+
 ## Pairs Well With 🍷
 
 - [Hugo Language and Syntax Support](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode)
