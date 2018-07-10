@@ -17,6 +17,9 @@ export class Site extends EventEmitter {
   ) {
     super();
     this.loadForestrySettings();
+    vscode.workspace
+      .createFileSystemWatcher("**/.forestry/settings.yml")
+      .onDidChange(() => this.loadForestrySettings());
   }
 
   /**
