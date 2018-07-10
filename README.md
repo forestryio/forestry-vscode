@@ -1,5 +1,7 @@
 # forestry-vscode
 
+![Forestry.io](images/forestry-square-neg-128.png)
+
 This is a VSCode Extension for working with repositories managed by the Forestry.io Content Mangement System.
 
 ## Features 🚀
