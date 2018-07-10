@@ -15,6 +15,7 @@
     "workspaceContains:**/.forestry/settings.yml"
   ],
   "main": "./out/extension",
+  "icon": "./imagse/forestry-square-neg-128.png",
   "contributes": {
     "snippets": [
       {
