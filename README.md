@@ -21,6 +21,8 @@ Have an idea? [Open a Feature Request](https://github.com/forestryio/forestry-vs
 
 - **Currenct Section:** A status bar item will display the Forestry Section where that a Markdown file lives.
 
+![Snippet Feature](images/feature-section-widget.png)
+
 ## Settings ️️⚙️
 
 This extension contributes the following settings:
