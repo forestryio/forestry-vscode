@@ -4,9 +4,24 @@ All notable changes to the "forestry" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## Unreleased
+Types of changes:
+
+- Added
+- Changed
+- Deprecated
+- Removed
+- Fixed
+- Security
+
+## [0.3.1] – 2018-07-11
+
+### Fixed
 
 - The Site watches `.forestry/settings.yml` and reloads settings on change.
+
+### Changed
+
+- Marketplace Appearance
 
 ## [0.3.0] – 2018-07-09
 

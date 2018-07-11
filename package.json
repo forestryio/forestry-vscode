@@ -2,7 +2,7 @@
   "name": "forestry",
   "displayName": "Forestry",
   "description": "A static CMS that commits",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "publisher": "forestryio",
   "engines": {
     "vscode": "^1.25.0"
