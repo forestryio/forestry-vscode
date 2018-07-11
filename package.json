@@ -1,7 +1,7 @@
 {
   "name": "forestry",
-  "displayName": "forestry",
-  "description": "",
+  "displayName": "Forestry",
+  "description": "A static CMS that commits",
   "version": "0.3.0",
   "publisher": "forestryio",
   "engines": {
@@ -37,6 +37,11 @@
         }
       }
     }
+  },
+  "homepage": "https://github.com/forestry/forestry-vscode/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
   },
   "repository": {
     "type": "git",
