@@ -56,4 +56,4 @@ A tentative list of future features:
 
 ## Slack Channel 💬
 
-Join the [#vscode](https://forestry.io/blog/join-our-slack-community/) channel in the Forestry.io community Slack group!
+Join the [Forestry.io Community Slack](https://forestry.io/blog/join-our-slack-community/) and checkout the [#vscode](https://forestry-community.slack.com/messages/CBRCJDWSZ/) channel!
