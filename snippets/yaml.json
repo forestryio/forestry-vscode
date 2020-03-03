@@ -5,7 +5,6 @@
       "---",
       "label: ${1:$TM_FILENAME_BASE}",
       "hide_body: ${2|false,true|}",
-      "is_partial: ${3|false,true|}",
       "fields:",
       "$0"
     ],
